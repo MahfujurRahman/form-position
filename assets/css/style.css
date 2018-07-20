@@ -1,0 +1,110 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+a:hover { text-decoration: none }
+.section-bg{
+    background-image: url(../img/thumb-1920-85305.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: darkgrey;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+.section-padding {
+    margin-top:  60px;
+}
+
+.section-bg:after {
+    position: absolute;
+    height:  100%;
+    width: 100%;
+    content:  "";
+    background-color:  #fff;
+    left:  0;
+    top:  0;
+    opacity:  .5;
+}
+.form-strick {
+    padding:  80px;
+    color: #333;
+}
+
+.section-pra {
+    text-align:  center;
+}
+
+.section-pra h2 {
+    text-transform:  uppercase;
+    padding-bottom:  25px;
+}
+
+.section-pra p {
+    font-size:  17px;
+}
+
+.section-form {margin-left: 100px;
+    background-color:  #fff;
+    padding: 60px;
+    box-shadow:  0 0 5px #252323;}
+
+.fomr-titel {
+    text-transform:  uppercase;
+}
+
+form p {
+    padding: 6px 0px;
+}
+
+input {
+    border:  1px solid #ddd;
+    border-radius:  5px;
+    width: 250px;
+    height:  35px;
+    text-transform:  uppercase;
+    padding-left:  10px;
+}
+
+textarea {
+    width:  250px;
+    height:  125px;
+    border: 1px solid #ddd;
+    border-radius:  5px;
+    text-transform:  uppercase;
+    padding:  5px;
+}
+
+input[type="submit"] {
+    background-color:  #333;
+    color:  #fff;
+    transition:  .3s;
+    font-weight:  700;
+}
+
+input[type="submit"]:hover {
+    background-color:  #1ba261;
+}
